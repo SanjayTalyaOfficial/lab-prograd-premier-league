@@ -4,7 +4,14 @@ let managerAge = 78;
 let currentTeam = "Manchester FC";
 let trophiesWon = 27;
 
+
+
 //Write your function here
+function createManager(_managerName, _managerAge, _currentTeam, _trophiesWon)
+{
+ 
+}
+createManager("Alex Ferguson", 78, "Manchester FC", 27);
 
 // Don't edit the following code
 try {
@@ -22,11 +29,14 @@ try {
 var formation = [4, 4, 3];
 
 //write your function here
-
+function createFormation(_defender, _midfield, _forward){
+  
+}
+createFormation(4, 4, 3);
 // Dont edit the following code
 
 try {
-  var formationObject = createFormation(formation);
+  var formationObject = createFormation();
 } catch (e) {
   //do nothing
 }
