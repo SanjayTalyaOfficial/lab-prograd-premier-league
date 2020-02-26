@@ -50,8 +50,26 @@ filterByDebut(2020);
 
 
 //Progression 4 - Filter players that play at the position _______
+var mark = [32, 33, 16, 40];
+
+function position(mark) {
+  return mark >= 0;
+}
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = mark.filter(position);
+}
 
 //Progression 5 - Filter players that have won ______ award
+
+var wonLoss = [0,1];//0 is lost and 1 is won
+
+function status(wonLoss) {
+  return wonLoss = 1;
+}
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = wonLoss.filter(status);
 
 //Progression 6 - Filter players that won ______ award ____ times
 
