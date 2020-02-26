@@ -72,8 +72,26 @@ function myFunction() {
   document.getElementById("demo").innerHTML = wonLoss.filter(status);
 
 //Progression 6 - Filter players that won ______ award ____ times
+var wonLoss = [0,1];//0 is lost and 1 is won
 
+function status(wonLoss) {
+  return wonLoss = 1;
+}
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = (wonLoss.(filter(status))).length;
 //Progression 7 - Filter players that won ______ award and belong to ______ country
+var wonLoss = [0,1];//0 is lost and 1 is won
+var country = ["germany", "china"];
+
+function status(wonLoss) {
+  return wonLoss = 1;
+}
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = wonLoss.filter(status);
+
+
 
 //Progression 8 - Filter players that won atleast ______ awards, belong to ______ team and are younger than ____
 
